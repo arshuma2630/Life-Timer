@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&family=Playwrite+IE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "sans-serif" "Oswald";
+}
+
+.background {
+  background-image: url("Life timer.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container h1 {
+  font-size: 4rem;
+  color:rgb(245, 7, 7);
+  
+}
+
+.settings {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.settings .fa-cog {
+  font-size: 3rem;
+  color: rgb(68, 1, 4);
+}
+.settings-content {
+  display: flex;
+  gap: 1rem;
+}
+.settings-content input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.settings-content button {
+  padding: 0.5rem 1rem;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: white;
+}
+.hide {
+  display: none;
+}
+
+.time-container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+.time-container h2 {
+  line-height: 60px;
+  text-align: center;
+  font-size: 3rem;
+  color:rgb(32, 3, 59)
+}
+.time-container div {
+  font-size: 4rem;
+  color:rgb(3, 37, 37);
+
+}
